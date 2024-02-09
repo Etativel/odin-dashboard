@@ -82,6 +82,20 @@ ul {
     gap: 12px;
 }
 
+.star:hover {
+    color: rgb(75, 186, 255);
+}
+.eye:hover {
+    color: rgb(75, 186, 255);
+}
+.share:hover {
+    color: rgb(75, 186, 255);
+}
+
+.bell:hover {
+    color: rgb(75, 186, 255);
+}
+
 .information {
     min-width: 300px;
     padding-right: 12px;
@@ -113,6 +127,9 @@ ul {
 .announcement-text {
     padding-bottom: 12px;
     border-bottom: 2px solid rgb(242, 235, 235);
+    font-size: 15px;
+    color: rgb(106, 106, 106);
+
 }
 
 .trending {
@@ -170,7 +187,8 @@ ul {
     padding-right: 24px;
 }
 
-.search-bar-ul > li {
+/* .search-bar-ul > li  */
+.header-button{
     display: flex;
     gap: 6px;
     background-color: rgb(75, 186, 255);
@@ -184,6 +202,12 @@ ul {
     border-radius: 24px;
 }
 
+.header-button:hover {
+    background-color: white;
+    color: rgb(75, 186, 255);
+    border: solid rgb(75, 186, 255) 2px;
+}
+
 .search-bar-ul > li > p {
     text-align: center;
     justify-content: center;
@@ -191,14 +215,22 @@ ul {
     justify-items: center;
 }
 
+input {
+    border: 0px;
+}
+
+input:hover {
+    border: solid grey 2px;
+}
+
 .s-bar {
     background-color: rgb(230, 235, 238);
     /* border: solid black; */
     flex-grow: 1;
-    margin-left: 12px;
-    margin-right: 64px;
+    margin-left: 20px;
+    margin-right: 150px;
     border-radius: 24px;
-    height: 32px;
+    height: 30px;
 
     display: flex;
     justify-content: center;
@@ -208,7 +240,7 @@ ul {
 
 .search-bar {
     /* background-color: blue; */
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     padding-top: 15px;
     display: flex;
     justify-content: center;
@@ -217,19 +249,60 @@ ul {
 
 .profile {
     /* background-color: red; */
-    padding-bottom: 15px;
-    padding-top: 15px;
+    /* padding-bottom: 15px; */
+    /* padding-top: 15px; */
 }
+
+.larger-image {
+    height: 60px;
+    width: 60px;
+}
+
+.smaller-image {
+    height: 50px;
+    width: 50px;
+}
+
+.header-name {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.name-sb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+}
+
+.name-sb > div:first-child {
+    font-size: small;
+    font-weight: bold;
+}
+
+.name-sb > div:nth-child(2) {
+    font-size: large;
+    font-weight: bold;
+}
+
+.image-border {
+    border-radius: 50%;
+}
+
+
 .notification-ul {
     /* background-color: aqua; */
-    border: solid black;
+    /* border: solid black; */
     /* height: 2px; */
+    display: flex;
+    gap: 12px;
 }
 
 .profile,
 .search-bar {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
 }
 
 .notification-ul,
@@ -278,3 +351,13 @@ svg {
 .top-settings {
     padding-top: 44px;
 }
+
+.user-name {
+    font-size: 15px;
+}
+
+.user-role {
+    font-size: 12px;
+    color: rgb(106, 106, 106);
+}
+
