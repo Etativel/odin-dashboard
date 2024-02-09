@@ -46,14 +46,27 @@ ul {
     margin-bottom: 24px;
 }
 .article-content {
-    padding-top: 12px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 32px;
+    padding-bottom: 32px;
     /* border: solid black; */
     border-radius: 6px;
     background-color: white;
     /* max-height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-title {
+    padding-bottom: 3px;
+}
+
+.article-star {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .information {
@@ -144,6 +157,7 @@ svg {
     align-items: center;
     gap: 22px;
     padding-left: 18px;
+    padding-right: 18px;
     padding-top: 12px;
 }
 
@@ -151,6 +165,7 @@ svg {
     display: flex;
     flex-direction: row;
     padding-left: 18px;
+    padding-right: 18px;
     gap: 12px;
     font-size: x-large;
     font-weight: 700;
