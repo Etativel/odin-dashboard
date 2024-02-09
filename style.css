@@ -3,18 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: solid black; */
 }
 li {
     list-style-type: none;
     
 }
 ul {
-    /* display: flex; */
     align-items: center;
 }
-
-
 
 .container {
     display: grid;
@@ -30,13 +26,10 @@ ul {
     grid-template-columns: 4fr 1fr;
     gap: 24px;
     justify-content: flex-end;
-    /* background-color: rgb(232, 250, 255); */
     background-color: rgb(224, 230, 231);
     padding-left: 12px;
     padding-top: 32px;
     overflow-y: auto;
-
-    /* background-color: aqua; */
 }
 
 .article {
@@ -44,25 +37,19 @@ ul {
     gap: 24px;
     grid-template-rows: repeat(auto-fit, 1fr, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* background-color: rgb(255, 255, 255); */
-
-    /* background-color: aquamarine; */
-
     margin-bottom: 24px;
 }
+
 .article-content {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* border: solid black; */
     border-radius: 6px;
     background-color: white;
-    /* max-height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     border-left: 8px solid orange;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -103,14 +90,12 @@ ul {
 
 .announcement {
     border-radius: 6px;
-
 }
 
 .announcement-content {
     display: flex;
     flex-direction: column;
     gap: 12px;
-
     border-radius: 6px;
     background-color: white;
     padding-left: 24px;
@@ -119,9 +104,7 @@ ul {
     padding-bottom: 24px;
     margin-bottom: 22px;
     margin-top: 12px;
-
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
-
 }
 
 .announcement-text {
@@ -129,7 +112,6 @@ ul {
     border-bottom: 2px solid rgb(242, 235, 235);
     font-size: 15px;
     color: rgb(106, 106, 106);
-
 }
 
 .trending {
@@ -137,8 +119,6 @@ ul {
 }
 
 .trending-content{
-    /* border: solid black; */
-    /* display: flex; */
     border-radius: 6px;
     background-color: white;
     padding-left: 24px;
@@ -187,7 +167,6 @@ ul {
     padding-right: 24px;
 }
 
-/* .search-bar-ul > li  */
 .header-button{
     display: flex;
     gap: 6px;
@@ -225,22 +204,17 @@ input:hover {
 
 .s-bar {
     background-color: rgb(230, 235, 238);
-    /* border: solid black; */
     flex-grow: 1;
     margin-left: 20px;
     margin-right: 150px;
     border-radius: 24px;
     height: 30px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .search-bar {
-    /* background-color: blue; */
-    /* padding-bottom: 15px; */
     padding-top: 15px;
     display: flex;
     justify-content: center;
@@ -248,9 +222,8 @@ input:hover {
 }
 
 .profile {
-    /* background-color: red; */
+    background-color: red;
     padding-bottom: 6px;
-    /* padding-top: 15px; */
 }
 
 .larger-image {
@@ -291,9 +264,6 @@ input:hover {
 
 
 .notification-ul {
-    /* background-color: aqua; */
-    /* border: solid black; */
-    /* height: 2px; */
     display: flex;
     gap: 12px;
 }
@@ -302,7 +272,6 @@ input:hover {
 .search-bar {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .notification-ul,
@@ -313,8 +282,6 @@ input:hover {
 .profile-ls {
     display: flex;
 }
-
-
 
 svg {
     width: 24px;
@@ -339,7 +306,6 @@ svg {
     background-color: white;
     color: rgb(75, 186, 255);
     border: solid 2px rgb(75, 186, 255);
-
     display: flex;
     align-items: center;
     gap: 22px;
@@ -349,7 +315,6 @@ svg {
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
-
     border-radius: 6px;
 }
 
